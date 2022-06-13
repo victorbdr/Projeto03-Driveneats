@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 header {
+  z-index: 1;
   position: fixed;
   top: 0;
   left: 0;
@@ -48,12 +49,16 @@ section {
   height: 87px;
 }
 .foodname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   border-radius: 9px;
   margin-right: 16px;
   width: 172px;
   height: 216px;
   background: #fff;
+  gap: 4px;
 }
 
 .secundario {
@@ -77,8 +82,12 @@ section {
   margin: 14px;
   width: 144px;
   height: 87px;
+  gap: 4px;
 }
 .drinkname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   border-radius: 9px;
   margin-right: 16px;
@@ -110,12 +119,16 @@ section {
   height: 87px;
 }
 .dessertname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   border-radius: 9px;
   margin-right: 16px;
   width: 172px;
   height: 216px;
   background: #ffff;
+  gap: 4px;
 }
 h5 {
   font-weight: 400;
@@ -132,18 +145,21 @@ h1 {
   color: #ffffff;
 }
 h2 {
+  padding-left: 14px;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: #333333;
 }
 h3 {
+  padding-left: 14px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #a6a6a6;
 }
 h4 {
+  padding-left: 14px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
